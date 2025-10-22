@@ -1,0 +1,76 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header styling */
+h1, h2 {
+    color: #2f3640;
+}
+
+/* Links styling */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #40739e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #273c75;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+form input[type="submit"] {
+    background-color: #44bd32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2ecc71;
+}
+
+/* Table/Report styling */
+pre {
+    background-color: #dcdde1;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
