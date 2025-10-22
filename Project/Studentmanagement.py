@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS students (
 conn.commit()
 
 
-# ---------------- FUNCTIONS ----------------
+
 def add_student():
     try:
         roll = int(input("Enter Roll Number: "))
